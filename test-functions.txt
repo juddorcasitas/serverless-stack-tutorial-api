@@ -1,0 +1,17 @@
+- Mock Create function
+serverless invoke local --function create --path mocks/create-event.json
+
+- Mock Get function
+serverless invoke local --function get --path mocks/get-event.json
+
+- Mock List function
+serverless invoke local --function list --path mocks/list-event.json
+
+- Mock Update function
+serverless invoke local --function update --path mocks/update-event.json
+
+- Mock Delete function
+serverless invoke local --function delete --path mocks/delete-event.json
+
+- Mock Billing function
+serverless invoke local --function billing --path mocks/billing-event.json
